@@ -1,5 +1,3 @@
-class AddCharactersNames < ActiveRecord::Migration[5.1]
-  def change
-    add_column :characters, :network_id, :integer
-  end
+class CreateCharacters < ActiveRecord::Migration[5.1]
+  
 end
